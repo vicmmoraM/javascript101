@@ -4,7 +4,7 @@
  * El modo estricto ayuda a detectar errores comunes y mejora la seguridad del código.
  * Referencia: https://javascript.info/strict-mode
  */
-
+"use strict";
 
 
 /** 
@@ -12,7 +12,7 @@
  * Importe la función setTitle desde el archivo functions.js.
  * Referencia: https://javascript.info/import-export
  */
-
+import { setTitle } from './functions.js';
 
 
 /** 
@@ -23,6 +23,9 @@
  */
 
 
+const pageTitle = "Datos comparativos de frameworks JavaScript modernos";
+const pageId = "title";
 
-// TO-DO: Llama a la función setTitle para establecer el contenido del elemento HTML con el ID especificado
+// Llama a la función setTitle para establecer el contenido del elemento HTML con el ID especificado
+setTitle(pageId, pageTitle);
 
