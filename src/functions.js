@@ -52,7 +52,7 @@ const addRow = (data, idBodyTable) => {
 
     let template = `
     <tr class="border-b border-blue-gray-100 bg-blue-gray-50">
-        <td class="font-medium text-gray-900 whitespace-nowrap dark:text-white py-2">${data.frameworkName}</td>
+        <td class="font-medium text-gray-900 whitespace-nowrap dark:text-gray-600 py-2">${data.frameworkName}</td>
         <td>${data.releaseDate}</td>
         <td>${data.usersName}</td>
         <td>${data.popularityPercentage}</td>
